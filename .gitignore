@@ -1,0 +1,18 @@
+# Personal data and run output never leave the machine
+data/
+queue/
+assets/
+*.xlsx
+config/answers.local.json
+config/secrets.env
+config/companies.yml
+config/portals.scanner.yml
+config/firecrawl_pages.yml
+config/verified*.yml
+config/verified*.json
+config/board_candidates.json
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+node_modules/

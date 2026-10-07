@@ -1,0 +1,15 @@
+# Company universe, example. Copy to config/companies.yml (gitignored) and make it yours.
+# tier A = company runs a named internship program. tier B = no named program, but hires interns
+# through ordinary postings, so the scanner watches its job board instead of a program page.
+# group drives scoring rules (consulting, finance, tech, local media and consumer brands).
+companies:
+  - {name: "Google", tier: A, group: scope:tech}
+  - {name: "NVIDIA", tier: A, group: scope:tech}
+  - {name: "Morgan Stanley", tier: A, group: scope:finance}
+  - {name: "Barclays", tier: A, group: scope:finance}
+  - {name: "McKinsey", tier: A, group: scope:consulting}
+  - {name: "Accenture", tier: A, group: scope:consulting}
+  - {name: "Fox Corporation", tier: B, group: scope:la-media}
+  - {name: "Disney", tier: B, group: scope:la-media}
+  - {name: "Paramount", tier: B, group: scope:la-media}
+  - {name: "Skechers", tier: B, group: scope:la-consumer}
