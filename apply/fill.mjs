@@ -2,7 +2,7 @@
 /**
  * Open every staged application in Chrome, fill what can be filled, and STOP.
  *
- * 🔴 NEVER SUBMITS. This file contains no click, no press, no form.submit, no requestSubmit.
+ * NEVER SUBMITS. This file contains no click, no press, no form.submit, no requestSubmit.
  * Fields are set by value and the resume by setInputFiles; nothing else touches the page.
  * tests/test_never_submit.py fails the build if any of those calls ever appear here.
  *
@@ -41,7 +41,7 @@ if (!items.length) {
 console.log(`\nQueue built ${queue.built}: ${items.length} application(s)\n`);
 items.forEach((it, i) => console.log(`${String(i + 1).padStart(2)}. ${it.company} | ${it.role}\n    ${it.ats}: ${it.form}${it.deadline ? `  | due ${it.deadline}` : ''}`));
 if (args.includes('--list')) process.exit(0);
-if (!existsSync(queue.resume)) console.log(`\n⚠️  Resume not found at ${queue.resume}; upload fields will be left empty.`);
+if (!existsSync(queue.resume)) console.log(`\nWARNING: Resume not found at ${queue.resume}; upload fields will be left empty.`);
 
 // label text -> answer key. First match wins.
 const RULES = [
@@ -160,7 +160,7 @@ if (!headless && alive(lockPid())) {
 }
 const ctx = await chromium.launchPersistentContext(profile, {
   // Playwright's own Chromium, never the Google Chrome app: a separate app with its own Dock icon, so it can't be
-  // mistaken for your everyday Chrome.
+  // mistaken for your everyday Chrome (2026-10-06: a leftover window here looked like the real profiles had vanished).
   headless, viewport: null, args: ['--start-maximized'],
   // Let your own autofill extension run in this profile (install it once from the Chrome Web Store here).
   // The never-submit guard covers this script's clicks only, so the extension's auto-submit must stay off.

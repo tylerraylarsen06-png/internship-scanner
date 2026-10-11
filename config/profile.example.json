@@ -7,10 +7,12 @@
   "linkedin": "https://www.linkedin.com/in/example",
   "school": "Example University",
   "degree": "Bachelor of Arts", "major": "Economics",
-  "graduation": "May 2029", "graduation_year": "2029", "gpa": "3.8",
+  "graduation": "May 2029", "graduation_year": "2029", "gpa": "3.5",
   "class_standing": "Sophomore",
   "work_authorized": "Yes", "sponsorship": "No",
   "hear_about": "Company careers website",
   "previous_employee": "No", "adult": "Yes", "phone_type": "Mobile", "country": "United States of America",
+  "race": "Decline To Self Identify", "hispanic": "Decline To Self Identify", "gender": "Decline To Self Identify",
+  "veteran": "I don't wish to answer", "disability": "I do not want to answer",
   "intro_line": "I'm a sophomore at Example University studying economics."
 }

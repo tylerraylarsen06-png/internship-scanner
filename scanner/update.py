@@ -2,7 +2,7 @@
 
   python3 -m scanner.update score KEY --fit 4.5 [--class-year "confirmed 2029"] [--deadline 2026-10-18]
                                       [--opens ...] [--verified y] [--note "..."]
-  python3 -m scanner.update person KEY --name "Jane Doe" [--email ...] [--linkedin ...] [--channel alumni-network|email]
+  python3 -m scanner.update person KEY --name "Jane Doe" [--email ...] [--linkedin ...] [--channel email]
   python3 -m scanner.update draft KEY --subject "..." --body-file path.txt
   python3 -m scanner.update answer KEY --why-file path.txt
   python3 -m scanner.update rule-out KEY --why "..."
@@ -66,7 +66,7 @@ def main(argv=None):
             print("BLOCKED by Do Not Contact:", "; ".join(blocked))
         else:
             r["decision_maker"] = a.name
-            r["dm_email"] = a.email or (f"Alumni network: {a.linkedin}" if a.channel == "alumni-network" else "")
+            r["dm_email"] = a.email or a.linkedin or ""
             r["outreach_status"] = f"found via {a.channel or 'email'}"
             print("ok")
     elif a.cmd == "draft":

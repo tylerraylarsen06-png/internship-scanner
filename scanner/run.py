@@ -5,7 +5,7 @@
   python3 -m scanner.run --offline       reuse downloaded files, no network
   python3 -m scanner.run --no-push       do not write the Sheet
 
-Rows found by the Claude side of the run (Handshake, an alumni network, LinkedIn reading, Firecrawl,
+Rows found by the Claude side of the run (Handshake, LinkedIn reading, Firecrawl,
 web search) are dropped as JSON lists into data/inbox/*.json and ingested here, then moved to
 data/inbox/done/.
 """

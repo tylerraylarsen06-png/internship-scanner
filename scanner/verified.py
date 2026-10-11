@@ -1,7 +1,7 @@
 """Firm-page verification facts. These override anything inherited from the old sheet or a guide list.
 
 Source of truth: ~/dev/career-ops/data/program-calendar.md / .tsv (manual firm-page verification
-passes), plus config/verified_manual.yml for checks made since (e.g. NVIDIA Ignite).
+passes, 2026-09-18 and 2026-09-22), plus config/verified_manual.yml for checks made since (e.g. NVIDIA Ignite).
 `python3 -m scanner.verified` rebuilds config/verified.json from those files.
 """
 import csv

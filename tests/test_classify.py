@@ -1,6 +1,6 @@
 import unittest
-from datetime import date
 from pathlib import Path
+from datetime import date
 
 from scanner.classify import class_year, enrich, is_urgent, location_tier
 from scanner.model import blank_row, canon_url, row_key

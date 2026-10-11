@@ -2,11 +2,9 @@
 
 Order of operations, every time:
   1. Company-level Do Not Contact check (current clients and partner orgs). Before any lookup or spend.
-  2. Person found (alumni network first, then a paid lookup with email verification).
-  3. Person-level DNC check (email, LinkedIn, name+firm). Fail closed if the DNC list is unreadable.
-  4. Draft anchored to the opening, validated against the outreach module's hard rules. Never sent from here.
-
-The DNC list and draft rules live in a separate private module (not published), found via OUTREACH_MODULE.
+  2. Person found (CareerShift first, then outreach-finder's Exa + Hunter + verify path).
+  3. Person-level DNC check (email, LinkedIn, name+firm). Fail closed if dnc.json is unreadable.
+  4. Draft anchored to the opening, validated against outreach-finder's hard rules. Never sent from here.
 """
 import json
 import os
@@ -16,11 +14,12 @@ from pathlib import Path
 
 OF = Path(os.environ.get("OUTREACH_MODULE", Path.home() / "dev/outreach-finder"))
 sys.path.insert(0, str(OF))
-import dnc  # noqa: E402  the private DNC module, the single source of the policy
+import dnc  # noqa: E402  outreach-finder's DNC module, the single source of the policy
 from drafts import validate_draft  # noqa: E402
 
-ROOT = Path(__file__).resolve().parent.parent
 from .stage import ANSWERS  # noqa: E402
+
+ROOT = Path(__file__).resolve().parent.parent
 CANDIDATES = ROOT / "queue/outreach_candidates.json"
 
 
@@ -55,8 +54,7 @@ def _clean_role(role):
 def draft(first_name, company, role, why_line=None):
     """Five sentences max, one ask, 15 minutes, anchored to the live opening. Returns (subject, body, violations)."""
     r = _clean_role(role)
-    why_line = why_line or ("That work put me close to the problems this team works on, and I want to hear "
-                            "how the role looks from the inside.")
+    why_line = why_line or "I want to hear how the role looks from the inside."
     subject = f"{r} at {company}"
     body = (
         f"Hi {first_name},\n\n"

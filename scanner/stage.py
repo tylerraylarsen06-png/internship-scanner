@@ -13,10 +13,10 @@ from .model import canon_url
 ROOT = Path(__file__).resolve().parent.parent
 QUEUE = ROOT / "queue/queue.json"
 
-# Your answers live in config/answers.local.json (gitignored). Copy config/answers.example.json to start.
+# Your answers live in config/profile.json (gitignored). Copy config/profile.example.json to start.
 # Any question not covered there is left blank and flagged for you; never guessed.
-_LOCAL = ROOT / "config/answers.local.json"
-_PROFILE = json.load(open(_LOCAL if _LOCAL.exists() else ROOT / "config/answers.example.json"))
+_LOCAL = ROOT / "config/profile.json"
+_PROFILE = json.load(open(_LOCAL if _LOCAL.exists() else ROOT / "config/profile.example.json"))
 RESUME = Path(_PROFILE.pop("resume_path", "assets/resume.pdf")).expanduser()
 if not RESUME.is_absolute():
     RESUME = ROOT / RESUME
@@ -81,7 +81,7 @@ def build(store, extra_answers=None, today=None):
             "fit": r.get("fit", ""), "ats": ats, "form": FORM_TYPE[ats],
             "url": apply_url(r["link"], ats), "posting": r["link"],
             "answers": {**ANSWERS, **(extra_answers or {}).get(r["key"], {})},
-            "due14": due_within(r, today, 14),  # bin/apply opens these by default
+            "due14": due_within(r, today, 14),  # bin/apply opens these by default (2026-10-06)
         })
         if r.get("status") in ("", "new"):
             r["status"] = "staged"

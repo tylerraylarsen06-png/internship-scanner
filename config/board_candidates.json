@@ -1,0 +1,645 @@
+[
+ {
+  "name": "NVIDIA",
+  "ats": "workday",
+  "board": "nvidia.wd5.myworkdayjobs.com|NVIDIAExternalCareerSite",
+  "probe_total": 1057,
+  "probe_sample": [
+   "Custom SOC Intern - 2027",
+   "Director, International Tax Planning",
+   "Applied Deep Learning PhD Research Intern, Reinforcement Learning for LLMs - Fall 2026"
+  ]
+ },
+ {
+  "name": "Disney",
+  "ats": "workday",
+  "board": "disney.wd5.myworkdayjobs.com|disneycareer",
+  "probe_total": 503,
+  "probe_sample": [
+   "Sr Mgr, Site Reliability Engineer (SRE)",
+   "Lead Product Manager",
+   "Log Coordinator (PT)"
+  ]
+ },
+ {
+  "name": "Salesforce",
+  "ats": "workday",
+  "board": "salesforce.wd12.myworkdayjobs.com|External_Career_Site",
+  "probe_total": 751,
+  "probe_sample": [
+   "Enterprise Application Engineer (Enterprise Security - Security AI)",
+   "Enterprise Account Executive - Travel, Transport & Hospitality",
+   "Named Account Executive, (Federal Civilian) Tribal Gaming and Government"
+  ]
+ },
+ {
+  "name": "Adobe",
+  "ats": "workday",
+  "board": "adobe.wd5.myworkdayjobs.com|external_experienced",
+  "probe_total": 178,
+  "probe_sample": [
+   "2027 Intern - Software Engineer",
+   "2027 Intern - Machine Learning Engineer",
+   "2027 Intern - Applied and Research Scientist/Engineer"
+  ]
+ },
+ {
+  "name": "Capital One",
+  "ats": "workday",
+  "board": "capitalone.wd12.myworkdayjobs.com|Capital_One",
+  "probe_total": 1122,
+  "probe_sample": [
+   "Business Director, Product Strategy & Analysis",
+   "Senior Manager, Full-stack Engineer (People Leader)-EDT",
+   "Full-stack Engineer 5 (Senior Manager, IC)-EDT"
+  ]
+ },
+ {
+  "name": "Citi",
+  "ats": "workday",
+  "board": "citi.wd5.myworkdayjobs.com|2",
+  "probe_total": 2000,
+  "probe_sample": [
+   "S.V.P. International LFO",
+   "AVP, International Personal Bank Client Origination",
+   "International Controls Lead (Singapore) - Vice President"
+  ]
+ },
+ {
+  "name": "Bank of America",
+  "ats": "workday",
+  "board": "ghr.wd1.myworkdayjobs.com|Lateral-US",
+  "probe_total": 963,
+  "probe_sample": [
+   "Business Solutions Advisor - Bella Terra Financial Center",
+   "Business Solutions Advisor - Central Valley Market",
+   "Merrill Market Supervision Manager"
+  ]
+ },
+ {
+  "name": "Wells Fargo",
+  "ats": "workday",
+  "board": "wf.wd1.myworkdayjobs.com|WellsFargoJobs",
+  "probe_total": 701,
+  "probe_sample": [
+   "Associate Fiduciary Specialist - International",
+   "International Fund Finance Analyst",
+   "International Technology Project Manager & Governance Lead"
+  ]
+ },
+ {
+  "name": "Morgan Stanley",
+  "ats": "workday",
+  "board": "ms.wd5.myworkdayjobs.com|External",
+  "probe_total": 697,
+  "probe_sample": [
+   "Intern",
+   "WM Client Segment Risk Head of Scams and Exploitation Risk Team and Internal Fraud: Executive Director",
+   "Intern"
+  ]
+ },
+ {
+  "name": "Warner Bros. Discovery",
+  "ats": "workday",
+  "board": "warnerbros.wd5.myworkdayjobs.com|global",
+  "probe_total": 196,
+  "probe_sample": [
+   "Intern, Digital Video (Winter 2026)",
+   "Intern, Sales Coordinator (Winter 2026)",
+   "Intern, US News (Winter 2026)"
+  ]
+ },
+ {
+  "name": "Paramount",
+  "ats": "workday",
+  "board": "paramount.wd5.myworkdayjobs.com|paramountcareers",
+  "probe_total": -1,
+  "probe_sample": [
+   "HTTP Error 422: Unprocessable Entity"
+  ]
+ },
+ {
+  "name": "NBCUniversal",
+  "ats": "workday",
+  "board": "nbcunlversal.wd5.myworkdayjobs.com|NBCUniversal",
+  "probe_total": -1,
+  "probe_sample": [
+   "HTTP Error 422: Unprocessable Entity"
+  ]
+ },
+ {
+  "name": "NBCUniversal",
+  "ats": "workday",
+  "board": "nbcuniversal.wd5.myworkdayjobs.com|NBCUniversal",
+  "probe_total": -1,
+  "probe_sample": [
+   "HTTP Error 422: Unprocessable Entity"
+  ]
+ },
+ {
+  "name": "Sony Pictures",
+  "ats": "workday",
+  "board": "sonypictures.wd1.myworkdayjobs.com|SonyPictures",
+  "probe_total": -1,
+  "probe_sample": [
+   "HTTP Error 422: Unprocessable Entity"
+  ]
+ },
+ {
+  "name": "Fox Corporation",
+  "ats": "workday",
+  "board": "fox.wd1.myworkdayjobs.com|Domestic",
+  "probe_total": 227,
+  "probe_sample": [
+   "Spring 2027 FOX Sports Internship Program - Charlotte",
+   "Summer 2027 FOX Sports Internship Program - Charlotte",
+   "Spring 2027 FOX Technology Internship Program - Tempe, AZ"
+  ]
+ },
+ {
+  "name": "Activision Blizzard",
+  "ats": "workday",
+  "board": "activision.wd1.myworkdayjobs.com|External",
+  "probe_total": -1,
+  "probe_sample": [
+   "HTTP Error 422: Unprocessable Entity"
+  ]
+ },
+ {
+  "name": "Skechers",
+  "ats": "workday",
+  "board": "skechers.wd5.myworkdayjobs.com|Skechers_Careers",
+  "probe_total": -1,
+  "probe_sample": [
+   "HTTP Error 404: Not Found"
+  ]
+ },
+ {
+  "name": "Live Nation",
+  "ats": "workday",
+  "board": "livenation.wd1.myworkdayjobs.com|LNExternalSite",
+  "probe_total": -1,
+  "probe_sample": [
+   "HTTP Error 422: Unprocessable Entity"
+  ]
+ },
+ {
+  "name": "Lionsgate",
+  "ats": "workday",
+  "board": "lionsgate.wd1.myworkdayjobs.com|LGF",
+  "probe_total": -1,
+  "probe_sample": [
+   "HTTP Error 422: Unprocessable Entity"
+  ]
+ },
+ {
+  "name": "Snap",
+  "ats": "workday",
+  "board": "snapchat.wd1.myworkdayjobs.com|snap",
+  "probe_total": 106,
+  "probe_sample": [
+   "Verification Engineer Intern",
+   "Spectacles Student Worker -Software Engineer, Embedded",
+   "Accountant"
+  ]
+ },
+ {
+  "name": "Zillow",
+  "ats": "workday",
+  "board": "zillow.wd5.myworkdayjobs.com|Zillow_Group_External",
+  "probe_total": 43,
+  "probe_sample": [
+   "Director, Corporate Accounting and Consolidation",
+   "Senior Benefits Analyst",
+   "Software Development Engineer - Fullstack"
+  ]
+ },
+ {
+  "name": "Intuit",
+  "ats": "workday",
+  "board": "intuit.wd1.myworkdayjobs.com|IntuitCareers",
+  "probe_total": -1,
+  "probe_sample": [
+   "HTTP Error 401: Unauthorized"
+  ]
+ },
+ {
+  "name": "Netflix",
+  "ats": "workday",
+  "board": "netflix.wd1.myworkdayjobs.com|Netflix",
+  "probe_total": -1,
+  "probe_sample": [
+   "HTTP Error 422: Unprocessable Entity"
+  ]
+ },
+ {
+  "name": "Accenture",
+  "ats": "workday",
+  "board": "accenture.wd103.myworkdayjobs.com|AccentureCareers",
+  "probe_total": 2000,
+  "probe_sample": [
+   "International Payments Associate",
+   "Digital transformation intern",
+   "Financial Services - Intern"
+  ]
+ },
+ {
+  "name": "PwC",
+  "ats": "workday",
+  "board": "pwc.wd3.myworkdayjobs.com|US_Entry_Level_Careers",
+  "probe_total": 58,
+  "probe_sample": [
+   "Detroit - Audit - Intern - Winter 2027",
+   "Detroit - Audit - Associate - Summer/Fall 2027",
+   "San Francisco - Tax - Intern - Summer 2028 - Destination CPA"
+  ]
+ },
+ {
+  "name": "Johnson & Johnson",
+  "ats": "workday",
+  "board": "jj.wd5.myworkdayjobs.com|JJ",
+  "probe_total": 1285,
+  "probe_sample": [
+   "Associate Director-Senior Manager, Global Master Data Management Engineering/Ops",
+   "Customer service manager",
+   "L\u00edder de Producci\u00f3n"
+  ]
+ },
+ {
+  "name": "Unilever",
+  "ats": "workday",
+  "board": "unilever.wd3.myworkdayjobs.com|Unilever_Experienced_Professionals",
+  "probe_total": 108,
+  "probe_sample": [
+   "Intern - Marketing",
+   "SHE Intern",
+   "International Transportation Specialist"
+  ]
+ },
+ {
+  "name": "Rivian",
+  "ats": "workday",
+  "board": "rivian.wd1.myworkdayjobs.com|careers",
+  "probe_total": -1,
+  "probe_sample": [
+   "HTTP Error 401: Unauthorized"
+  ]
+ },
+ {
+  "name": "Blackstone",
+  "ats": "workday",
+  "board": "blackstone.wd1.myworkdayjobs.com|Blackstone_Campus_Careers",
+  "probe_total": 25,
+  "probe_sample": [
+   "2027 Blackstone Technology & Innovation Software Engineer Analyst (London)",
+   "2027 Real Estate Finance, Off Cycle Intern (January to June), Singapore",
+   "2027 Blackstone Real Estate Acquisitions Analyst"
+  ]
+ },
+ {
+  "name": "Evercore",
+  "ats": "workday",
+  "board": "evercore.wd1.myworkdayjobs.com|Evercore_Campus_Careers",
+  "probe_total": -1,
+  "probe_sample": [
+   "HTTP Error 401: Unauthorized"
+  ]
+ },
+ {
+  "name": "Barclays",
+  "ats": "workday",
+  "board": "barclays.wd3.myworkdayjobs.com|External_Career_Site_Barclays",
+  "probe_total": 676,
+  "probe_sample": [
+   "Fraud Detections Analyst",
+   "Equities Market Risk AVP",
+   "IB Financial Crimes Investigations - AVP (Markets)"
+  ]
+ },
+ {
+  "name": "Riot Games",
+  "ats": "greenhouse",
+  "board": "riotgames",
+  "probe_total": 170,
+  "probe_sample": [
+   "Research Intern, PhD or Master's (Contract)",
+   "Software Engineering Intern - Summer 2027 (Remote)"
+  ]
+ },
+ {
+  "name": "Anduril",
+  "ats": "greenhouse",
+  "board": "andurilindustries",
+  "probe_total": 2457,
+  "probe_sample": [
+   "2026 Guidance, Navigation & Control Engineer Intern",
+   "2027 Electrical Engineer Intern",
+   "2027 Flight Software Engineer Intern"
+  ]
+ },
+ {
+  "name": "GoodRx",
+  "ats": "greenhouse",
+  "board": "goodrx",
+  "probe_total": -1,
+  "probe_sample": [
+   "HTTP Error 404: Not Found"
+  ]
+ },
+ {
+  "name": "Headspace",
+  "ats": "greenhouse",
+  "board": "hs",
+  "probe_total": 3,
+  "probe_sample": []
+ },
+ {
+  "name": "Thrive Market",
+  "ats": "greenhouse",
+  "board": "thrivemarket",
+  "probe_total": 15,
+  "probe_sample": []
+ },
+ {
+  "name": "The Honest Company",
+  "ats": "greenhouse",
+  "board": "thehonestcompany",
+  "probe_total": 0,
+  "probe_sample": []
+ },
+ {
+  "name": "Fabletics",
+  "ats": "greenhouse",
+  "board": "fabletics",
+  "probe_total": -1,
+  "probe_sample": [
+   "HTTP Error 404: Not Found"
+  ]
+ },
+ {
+  "name": "FabFitFun",
+  "ats": "greenhouse",
+  "board": "fabfitfun",
+  "probe_total": -1,
+  "probe_sample": [
+   "HTTP Error 404: Not Found"
+  ]
+ },
+ {
+  "name": "Grindr",
+  "ats": "greenhouse",
+  "board": "grindr",
+  "probe_total": -1,
+  "probe_sample": [
+   "HTTP Error 404: Not Found"
+  ]
+ },
+ {
+  "name": "Whatnot",
+  "ats": "ashby",
+  "board": "whatnot",
+  "probe_total": -1,
+  "probe_sample": [
+   "HTTP Error 404: Not Found"
+  ]
+ },
+ {
+  "name": "Match Group",
+  "ats": "lever",
+  "board": "matchgroup",
+  "probe_total": 70,
+  "probe_sample": []
+ },
+ {
+  "name": "Tinder",
+  "ats": "greenhouse",
+  "board": "tinder",
+  "probe_total": -1,
+  "probe_sample": [
+   "HTTP Error 404: Not Found"
+  ]
+ },
+ {
+  "name": "Scale AI",
+  "ats": "greenhouse",
+  "board": "scaleai",
+  "probe_total": 188,
+  "probe_sample": [
+   "Head of International Security",
+   "Software Engineering Intern (Summer 2027) ",
+   "Software Engineering Intern (Summer 2027) "
+  ]
+ },
+ {
+  "name": "Jefferies",
+  "ats": "greenhouse",
+  "board": "jefferies",
+  "probe_total": -1,
+  "probe_sample": [
+   "HTTP Error 404: Not Found"
+  ]
+ },
+ {
+  "name": "Beyond Meat",
+  "ats": "greenhouse",
+  "board": "beyondmeat",
+  "probe_total": -1,
+  "probe_sample": [
+   "HTTP Error 404: Not Found"
+  ]
+ },
+ {
+  "name": "Hims & Hers",
+  "ats": "ashby",
+  "board": "hims-and-hers",
+  "probe_total": 144,
+  "probe_sample": []
+ },
+ {
+  "name": "Duolingo",
+  "ats": "greenhouse",
+  "board": "duolingo",
+  "probe_total": 60,
+  "probe_sample": [
+   "Associate Product Manager, Intern",
+   "Illustrator, Intern"
+  ]
+ },
+ {
+  "name": "Pinterest",
+  "ats": "greenhouse",
+  "board": "pinterest",
+  "probe_total": 174,
+  "probe_sample": [
+   "Machine Learning Intern 2027 (Dublin)",
+   "Machine Learning Intern 2027 (Toronto)",
+   "Machine Learning Intern 2027 (Zurich)"
+  ]
+ },
+ {
+  "name": "Airbnb",
+  "ats": "greenhouse",
+  "board": "airbnb",
+  "probe_total": 150,
+  "probe_sample": [
+   "Staff Experience Designer, International"
+  ]
+ },
+ {
+  "name": "Dropbox",
+  "ats": "greenhouse",
+  "board": "dropbox",
+  "probe_total": 40,
+  "probe_sample": []
+ },
+ {
+  "name": "Stripe",
+  "ats": "greenhouse",
+  "board": "stripe",
+  "probe_total": 718,
+  "probe_sample": [
+   "Data Analyst, Intern",
+   "Data Analyst, Intern",
+   "Financial Data Analyst Intern, Technical Operations"
+  ]
+ },
+ {
+  "name": "Ramp",
+  "ats": "ashby",
+  "board": "ramp",
+  "probe_total": 159,
+  "probe_sample": [
+   "Financial Partnerships Manager, International",
+   "Product Manager | International",
+   "Applied Scientist Intern"
+  ]
+ },
+ {
+  "name": "Scopely",
+  "ats": "greenhouse",
+  "board": "scopely",
+  "probe_total": 165,
+  "probe_sample": [
+   "Intern - Game Design (Slot)"
+  ]
+ },
+ {
+  "name": "ZipRecruiter",
+  "ats": "greenhouse",
+  "board": "ziprecruiter",
+  "probe_total": 41,
+  "probe_sample": [
+   "Software Engineer - Intern"
+  ]
+ },
+ {
+  "name": "Chime",
+  "ats": "greenhouse",
+  "board": "chime",
+  "probe_total": 66,
+  "probe_sample": []
+ },
+ {
+  "name": "Faire",
+  "ats": "greenhouse",
+  "board": "faire",
+  "probe_total": 75,
+  "probe_sample": [
+   "International Strategy and Operations Lead"
+  ]
+ },
+ {
+  "name": "SpaceX",
+  "ats": "greenhouse",
+  "board": "spacex",
+  "probe_total": 2662,
+  "probe_sample": [
+   "Application Software Engineer, Internal Systems",
+   "Full Stack Software Engineer, Internal Systems",
+   "Full Stack Software Engineer, Internal Systems"
+  ]
+ },
+ {
+  "name": "Spotify",
+  "ats": "lever",
+  "board": "spotify",
+  "probe_total": 80,
+  "probe_sample": [
+   "RecSys 2026 \u2014 Intern"
+  ]
+ },
+ {
+  "name": "A24",
+  "ats": "greenhouse",
+  "board": "a24",
+  "probe_total": 8,
+  "probe_sample": [
+   "International Publicity Coordinator "
+  ]
+ },
+ {
+  "name": "Skydance",
+  "ats": "lever",
+  "board": "skydance",
+  "probe_total": 12,
+  "probe_sample": []
+ },
+ {
+  "name": "Tala",
+  "ats": "lever",
+  "board": "tala",
+  "probe_total": 7,
+  "probe_sample": []
+ },
+ {
+  "name": "Dave",
+  "ats": "ashby",
+  "board": "dave",
+  "probe_total": 4,
+  "probe_sample": []
+ },
+ {
+  "name": "Ritual",
+  "ats": "greenhouse",
+  "board": "ritual",
+  "probe_total": 15,
+  "probe_sample": [
+   "Research Intern",
+   "Software Engineer Intern"
+  ]
+ },
+ {
+  "name": "Cameo",
+  "ats": "greenhouse",
+  "board": "cameo",
+  "probe_total": 1,
+  "probe_sample": []
+ },
+ {
+  "name": "AlixPartners",
+  "ats": "greenhouse",
+  "board": "alixpartners",
+  "probe_total": 114,
+  "probe_sample": [
+   "Executive Assistant / Assistenz in internationaler Unternehmensberatung (m/w/d)",
+   "Help Desk Intern",
+   "Payroll & Benefits Senior Specialist in internationaler Managementberatung (m/w/d)"
+  ]
+ },
+ {
+  "name": "Vuori",
+  "ats": "greenhouse",
+  "board": "vuori",
+  "probe_total": 2,
+  "probe_sample": []
+ },
+ {
+  "name": "Uber",
+  "ats": "workday",
+  "board": "uber.wd1.myworkdayjobs.com|Uber",
+  "probe_total": -1,
+  "probe_sample": [
+   "HTTP Error 422: Unprocessable Entity"
+  ]
+ }
+]

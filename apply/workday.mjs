@@ -125,7 +125,7 @@ async function fillSource(page, unfilled) {
   return 0;
 }
 
-/** A page you have to finish: wait until you click Save and Continue himself, then carry on. */
+/** A page you have to finish: wait until you click Save and Continue yourself, then carry on. */
 async function waitForHuman(page, it, h, why, log) {
   await page.bringToFront();
   log(`  ${it.company}: needs you on "${h}": ${why}. Fill it and click Save and Continue; I will carry on from the next page.`);

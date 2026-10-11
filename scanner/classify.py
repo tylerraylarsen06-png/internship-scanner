@@ -16,8 +16,7 @@ from . import verified
 from .model import company_key, norm
 
 CONFIG = Path(__file__).resolve().parent.parent / "config"
-_cfg = CONFIG / "companies.yml"
-_companies = yaml.safe_load(open(_cfg if _cfg.exists() else CONFIG / "companies.example.yml"))["companies"]
+_companies = yaml.safe_load(open(CONFIG / "companies.yml"))["companies"]
 TIER_A = {company_key(c["name"]) for c in _companies if c["tier"] == "A"}
 TIER_B = {company_key(c["name"]) for c in _companies if c["tier"] == "B"}
 CONSULTING = {company_key(c["name"]) for c in _companies if c["group"] == "scope:consulting"}
@@ -27,7 +26,7 @@ MEDIA_NAME = re.compile(r"(studio|pictures|entertainment|media|network|broadcast
 # At a studio or network these are deal roles (rights, talent contracts, distribution terms), not law practice.
 MEDIA_DEAL = re.compile(r"(business (and|&) legal affairs|business affairs|\bdeals?\b|transactions?|"
                         r"\brights\b|licensing|clearances|distribution)", re.I)
-MEDIA_DEAL_FIT = 3.5  # visible in PIPELINE; lifted by hand but not forced into URGENT
+MEDIA_DEAL_FIT = 3.5  # visible in PIPELINE; lifted by hand on 2026-10-06 but not forced into URGENT
 
 QUANT_FIRMS = {"jane street", "two sigma", "citadel", "citadel securities", "hudson river trading", "hrt",
                "virtu", "virtu financial", "jump trading", "susquehanna", "sig", "optiver", "imc", "drw",
@@ -168,8 +167,8 @@ def rule_out(company, role, text, loc, cy, link="", raw_link=""):
         return "Summer 2028 or later: junior-year internship"
     if re.search(r"\bco-?op\b", role, re.I):
         return "Co-op: full-time during the semester"
-    # An off-season term stays in when it is local: a commutable spring role is a path to a summer offer
-    # at the same company. Do not tighten this.
+    # An off-season term stays in when it is local (2026-10-06): a commutable spring role is the clearest
+    # path to a summer offer at the same company. Do not tighten this.
     if OFF_TERM.search(role) and not (LA_AREA.search(f"{loc} {role}") or REMOTE.search(f"{loc} {role}")):
         return "Off-season term outside LA"
     if location_tier(loc or link_location(raw_link)) == 3:
@@ -224,7 +223,7 @@ def parse_date(s):
     return None
 
 
-URGENT_DEADLINE_FLOOR = 3.0  # due inside 30 days goes to URGENT only at fit 3.0+
+URGENT_DEADLINE_FLOOR = 3.0  # 2026-10-06: due inside 30 days goes to URGENT only at fit 3.0+
 
 
 def due_within(row, today, days):

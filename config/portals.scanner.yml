@@ -1,0 +1,187 @@
+# Scanner-only portals file. career-ops reads it via CAREER_OPS_PORTALS, so your
+# own career-ops/portals.yml is never touched. Populated by discover-ats.mjs --write.
+title_filter:
+  positive:
+    - "Intern"
+    - "Internship"
+    - "Summer 2027"
+    - "2027 Summer"
+    - "Co-op"
+    - "Externship"
+    - "Winternship"
+    - "Insight"
+    - "Sophomore"
+    - "Underclassmen"
+    - "Early Career Program"
+    - "Explore"
+    - "word:STEP"
+    - "word:STAR"
+    - "Ignite"
+    - "Summit"
+    - "Discovery"
+    - "Launchpad"
+    - "Futureforce"
+    - "Fellowship"
+  negative:
+    - "Senior"
+    - "Principal"
+    - "Director"
+    - "Manager,"
+    - "Head of"
+    - "MBA"
+    - "PhD"
+    - "Ph.D"
+    - "Doctoral"
+    - "Master's"
+    - "Postdoc"
+    - "New Grad"
+    - "Full-Time"
+    - "Fall 2026"
+    - "Spring 2026"
+    - "Summer 2026"
+    - "Quantitative"
+    - "word:Trader"
+    - "Trading"
+    - "Firmware"
+    - "FPGA"
+    - "ASIC"
+    - "Internal Audit"
+tracked_companies:
+  - name: "NVIDIA"
+    careers_url: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite
+    enabled: true
+  - name: "Disney"
+    careers_url: https://disney.wd5.myworkdayjobs.com/disneycareer
+    enabled: true
+  - name: "Salesforce"
+    careers_url: https://salesforce.wd12.myworkdayjobs.com/External_Career_Site
+    enabled: true
+  - name: "Adobe"
+    careers_url: https://adobe.wd5.myworkdayjobs.com/external_experienced
+    enabled: true
+  - name: "Capital One"
+    careers_url: https://capitalone.wd12.myworkdayjobs.com/Capital_One
+    enabled: true
+  - name: "Citi"
+    careers_url: https://citi.wd5.myworkdayjobs.com/2
+    enabled: true
+  - name: "Bank of America"
+    careers_url: https://ghr.wd1.myworkdayjobs.com/Lateral-US
+    enabled: true
+  - name: "Wells Fargo"
+    careers_url: https://wf.wd1.myworkdayjobs.com/WellsFargoJobs
+    enabled: true
+  - name: "Morgan Stanley"
+    careers_url: https://ms.wd5.myworkdayjobs.com/External
+    enabled: true
+  - name: "Warner Bros. Discovery"
+    careers_url: https://warnerbros.wd5.myworkdayjobs.com/global
+    enabled: true
+  - name: "Fox Corporation"
+    careers_url: https://fox.wd1.myworkdayjobs.com/Domestic
+    enabled: true
+  - name: "Snap"
+    careers_url: https://snapchat.wd1.myworkdayjobs.com/snap
+    enabled: true
+  - name: "Zillow"
+    careers_url: https://zillow.wd5.myworkdayjobs.com/Zillow_Group_External
+    enabled: true
+  - name: "Accenture"
+    careers_url: https://accenture.wd103.myworkdayjobs.com/AccentureCareers
+    enabled: true
+  - name: "PwC"
+    careers_url: https://pwc.wd3.myworkdayjobs.com/US_Entry_Level_Careers
+    enabled: true
+  - name: "Johnson & Johnson"
+    careers_url: https://jj.wd5.myworkdayjobs.com/JJ
+    enabled: true
+  - name: "Unilever"
+    careers_url: https://unilever.wd3.myworkdayjobs.com/Unilever_Experienced_Professionals
+    enabled: true
+  - name: "Blackstone"
+    careers_url: https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers
+    enabled: true
+  - name: "Barclays"
+    careers_url: https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays
+    enabled: true
+  - name: "Riot Games"
+    careers_url: https://job-boards.greenhouse.io/riotgames
+    enabled: true
+  - name: "Anduril"
+    careers_url: https://job-boards.greenhouse.io/andurilindustries
+    enabled: true
+  - name: "Headspace"
+    careers_url: https://job-boards.greenhouse.io/hs
+    enabled: true
+  - name: "Thrive Market"
+    careers_url: https://job-boards.greenhouse.io/thrivemarket
+    enabled: true
+  - name: "Match Group"
+    careers_url: https://jobs.lever.co/matchgroup
+    enabled: true
+  - name: "Scale AI"
+    careers_url: https://job-boards.greenhouse.io/scaleai
+    enabled: true
+  - name: "Hims & Hers"
+    careers_url: https://jobs.ashbyhq.com/hims-and-hers
+    enabled: true
+  - name: "Duolingo"
+    careers_url: https://job-boards.greenhouse.io/duolingo
+    enabled: true
+  - name: "Pinterest"
+    careers_url: https://job-boards.greenhouse.io/pinterest
+    enabled: true
+  - name: "Airbnb"
+    careers_url: https://job-boards.greenhouse.io/airbnb
+    enabled: true
+  - name: "Dropbox"
+    careers_url: https://job-boards.greenhouse.io/dropbox
+    enabled: true
+  - name: "Stripe"
+    careers_url: https://job-boards.greenhouse.io/stripe
+    enabled: true
+  - name: "Ramp"
+    careers_url: https://jobs.ashbyhq.com/ramp
+    enabled: true
+  - name: "Scopely"
+    careers_url: https://job-boards.greenhouse.io/scopely
+    enabled: true
+  - name: "ZipRecruiter"
+    careers_url: https://job-boards.greenhouse.io/ziprecruiter
+    enabled: true
+  - name: "Chime"
+    careers_url: https://job-boards.greenhouse.io/chime
+    enabled: true
+  - name: "Faire"
+    careers_url: https://job-boards.greenhouse.io/faire
+    enabled: true
+  - name: "SpaceX"
+    careers_url: https://job-boards.greenhouse.io/spacex
+    enabled: true
+  - name: "Spotify"
+    careers_url: https://jobs.lever.co/spotify
+    enabled: true
+  - name: "A24"
+    careers_url: https://job-boards.greenhouse.io/a24
+    enabled: true
+  - name: "Skydance"
+    careers_url: https://jobs.lever.co/skydance
+    enabled: true
+  - name: "Tala"
+    careers_url: https://jobs.lever.co/tala
+    enabled: true
+  - name: "Dave"
+    careers_url: https://jobs.ashbyhq.com/dave
+    enabled: true
+  - name: "Ritual"
+    careers_url: https://job-boards.greenhouse.io/ritual
+    enabled: true
+  - name: "Cameo"
+    careers_url: https://job-boards.greenhouse.io/cameo
+    enabled: true
+  - name: "AlixPartners"
+    careers_url: https://job-boards.greenhouse.io/alixpartners
+    enabled: true
+  - name: "Vuori"
+    careers_url: https://job-boards.greenhouse.io/vuori
+    enabled: true

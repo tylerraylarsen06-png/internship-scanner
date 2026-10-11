@@ -1,0 +1,19 @@
+<!doctype html><html><body>
+<form id="application_form" onsubmit="window.__submitted=true;return false;">
+<div class="field"><label for="first_name">First Name *</label><input id="first_name" name="first_name" required></div>
+<div class="field"><label for="last_name">Last Name *</label><input id="last_name" name="last_name" required></div>
+<div class="field"><label for="email">Email *</label><input id="email" name="email" type="email" required></div>
+<div class="field"><label for="phone">Phone</label><input id="phone" name="phone"></div>
+<div class="field"><label for="resume">Resume/CV *</label><input id="resume" name="resume" type="file"></div>
+<div class="field"><label for="li">LinkedIn Profile</label><input id="li" name="linkedin"></div>
+<div class="field"><label for="school">School</label><input id="school" name="school"></div>
+<div class="field"><label for="grad">Expected graduation date</label><input id="grad" name="grad"></div>
+<div class="field"><label for="auth">Are you legally authorized to work in the United States?</label>
+<select id="auth" name="auth"><option></option><option>Yes</option><option>No</option></select></div>
+<div class="field"><label for="spon">Will you now or in the future require sponsorship?</label>
+<select id="spon" name="spon"><option></option><option>Yes</option><option>No</option></select></div>
+<div class="field"><label for="gender">Gender</label>
+<select id="gender" name="gender"><option></option><option>Male</option><option>Female</option><option>Decline To Self Identify</option></select></div>
+<div class="field"><label for="why">Why do you want to work here? *</label><textarea id="why" name="why" required></textarea></div>
+<button type="submit" id="submit_app">Submit Application</button>
+</form></body></html>

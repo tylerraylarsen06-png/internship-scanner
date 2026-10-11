@@ -1,7 +1,7 @@
 /**
  * The only place in apply/ allowed to click. Everything else calls safeClick().
  *
- * 🔴 It will never press Submit. A click is refused when the element's text, aria-label, value or
+ * It will never press Submit. A click is refused when the element's text, aria-label, value or
  * Workday automation id says submit, send, finish, sign in, create account, accept, agree, withdraw or
  * delete, whatever list it is otherwise on. Buttons must also be on the allow-list by name. Dropdown
  * options and radio buttons inside a form field are allowed by kind, and still pass the refusal check.

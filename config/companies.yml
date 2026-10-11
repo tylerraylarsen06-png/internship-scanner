@@ -1,0 +1,116 @@
+# Scanner company universe. tier A = named program, B = LA no-program pattern (Fox/Skechers).
+# Edit freely; added_by marks where each came from.
+companies:
+  - {name: "Google", tier: A, group: scope:tech}
+  - {name: "Microsoft", tier: A, group: scope:tech}
+  - {name: "NVIDIA", tier: A, group: scope:tech}
+  - {name: "Meta", tier: A, group: scope:tech}
+  - {name: "LinkedIn", tier: A, group: scope:tech}
+  - {name: "Duolingo", tier: A, group: scope:tech}
+  - {name: "Salesforce", tier: A, group: scope:tech}
+  - {name: "Zillow", tier: A, group: scope:tech}
+  - {name: "Uber", tier: A, group: scope:tech}
+  - {name: "IBM", tier: A, group: scope:tech}
+  - {name: "Adobe", tier: A, group: scope:tech}
+  - {name: "Intuit", tier: A, group: scope:tech}
+  - {name: "Dropbox", tier: A, group: scope:tech}
+  - {name: "Pinterest", tier: A, group: scope:tech}
+  - {name: "Snap", tier: A, group: scope:tech}
+  - {name: "Airbnb", tier: A, group: scope:tech}
+  - {name: "Scale AI", tier: A, group: scope:tech}
+  - {name: "Stripe", tier: A, group: scope:tech}
+  - {name: "Ramp", tier: A, group: scope:tech}
+  - {name: "Capital One", tier: A, group: scope:tech}
+  - {name: "Goldman Sachs", tier: A, group: scope:finance}
+  - {name: "JPMorgan Chase", tier: A, group: scope:finance}
+  - {name: "Morgan Stanley", tier: A, group: scope:finance}
+  - {name: "Bank of America", tier: A, group: scope:finance}
+  - {name: "Citi", tier: A, group: scope:finance}
+  - {name: "Wells Fargo", tier: A, group: scope:finance}
+  - {name: "Barclays", tier: A, group: scope:finance}
+  - {name: "Evercore", tier: A, group: scope:finance}
+  - {name: "Jefferies", tier: A, group: scope:finance}
+  - {name: "Blackstone", tier: A, group: scope:finance}
+  - {name: "Moelis", tier: A, group: scope:finance}
+  - {name: "BNP Paribas", tier: A, group: scope:finance}
+  - {name: "McKinsey", tier: A, group: scope:consulting}
+  - {name: "Bain", tier: A, group: scope:consulting}
+  - {name: "BCG", tier: A, group: scope:consulting}
+  - {name: "Deloitte", tier: A, group: scope:consulting}
+  - {name: "PwC", tier: A, group: scope:consulting}
+  - {name: "EY", tier: A, group: scope:consulting}
+  - {name: "KPMG", tier: A, group: scope:consulting}
+  - {name: "Oliver Wyman", tier: A, group: scope:consulting}
+  - {name: "Kearney", tier: A, group: scope:consulting}
+  - {name: "L.E.K. Consulting", tier: A, group: scope:consulting}
+  - {name: "Roland Berger", tier: A, group: scope:consulting}
+  - {name: "Alvarez & Marsal", tier: A, group: scope:consulting}
+  - {name: "AlixPartners", tier: A, group: scope:consulting}
+  - {name: "Cornerstone Research", tier: A, group: scope:consulting}
+  - {name: "Analysis Group", tier: A, group: scope:consulting}
+  - {name: "ZS Associates", tier: A, group: scope:consulting}
+  - {name: "Simon-Kucher", tier: A, group: scope:consulting}
+  - {name: "Accenture", tier: A, group: scope:consulting}
+  - {name: "Charles River Associates", tier: A, group: scope:consulting}
+  - {name: "FTI Consulting", tier: A, group: scope:consulting}
+  - {name: "Berkeley Research Group", tier: A, group: scope:consulting}
+  - {name: "Procter & Gamble", tier: A, group: scope:cpg}
+  - {name: "Johnson & Johnson", tier: A, group: scope:cpg}
+  - {name: "Unilever", tier: A, group: scope:cpg}
+  - {name: "PepsiCo", tier: A, group: scope:cpg}
+  - {name: "Nestle", tier: A, group: scope:cpg}
+  - {name: "Fox Corporation", tier: B, group: scope:la-media}
+  - {name: "Disney", tier: B, group: scope:la-media}
+  - {name: "Hulu", tier: B, group: scope:la-media}
+  - {name: "Netflix", tier: B, group: scope:la-media}
+  - {name: "Warner Bros. Discovery", tier: B, group: scope:la-media}
+  - {name: "Paramount", tier: B, group: scope:la-media}
+  - {name: "Sony Pictures", tier: B, group: scope:la-media}
+  - {name: "NBCUniversal", tier: B, group: scope:la-media}
+  - {name: "Live Nation", tier: B, group: scope:la-media}
+  - {name: "Ticketmaster", tier: B, group: scope:la-media}
+  - {name: "Lionsgate", tier: B, group: scope:la-media}
+  - {name: "A24", tier: B, group: scope:la-media}
+  - {name: "Skydance", tier: B, group: scope:la-media}
+  - {name: "Skechers", tier: B, group: scope:la-consumer}
+  - {name: "Beyond Meat", tier: B, group: scope:la-consumer}
+  - {name: "The Honest Company", tier: B, group: scope:la-consumer}
+  - {name: "Dollar Shave Club", tier: B, group: scope:la-consumer}
+  - {name: "Skims", tier: B, group: scope:la-consumer}
+  - {name: "Savage X Fenty", tier: B, group: scope:la-consumer}
+  - {name: "Fashion Nova", tier: B, group: scope:la-consumer}
+  - {name: "Vuori", tier: B, group: scope:la-consumer}
+  - {name: "Alo Yoga", tier: B, group: scope:la-consumer}
+  - {name: "Ring", tier: B, group: scope:la-consumer}
+  - {name: "Riot Games", tier: B, group: scope:la-tech-gaming}
+  - {name: "Activision Blizzard", tier: B, group: scope:la-tech-gaming}
+  - {name: "Scopely", tier: B, group: scope:la-tech-gaming}
+  - {name: "TikTok", tier: B, group: scope:la-tech-gaming}
+  - {name: "GoodRx", tier: B, group: scope:la-tech-gaming}
+  - {name: "ServiceTitan", tier: B, group: scope:la-tech-gaming}
+  - {name: "Bird", tier: B, group: scope:la-tech-gaming}
+  - {name: "FaZe Clan", tier: B, group: scope:la-tech-gaming}
+  - {name: "Match Group", tier: B, group: scope:la-tech-gaming}
+  - {name: "Tinder", tier: B, group: scope:la-tech-gaming}
+  - {name: "Whatnot", tier: B, group: scope:la-tech-gaming}
+  - {name: "Fabletics", tier: B, group: scope:la-tech-gaming}
+  - {name: "Headspace", tier: B, group: added:la-midsize}
+  - {name: "ZipRecruiter", tier: B, group: added:la-midsize}
+  - {name: "Tala", tier: B, group: added:la-midsize}
+  - {name: "Dave", tier: B, group: added:la-midsize}
+  - {name: "FabFitFun", tier: B, group: added:la-midsize}
+  - {name: "Grindr", tier: B, group: added:la-midsize}
+  - {name: "Thrive Market", tier: B, group: added:la-midsize}
+  - {name: "Anduril", tier: B, group: added:la-midsize}
+  - {name: "Rivian", tier: B, group: added:la-midsize}
+  - {name: "Cameo", tier: B, group: added:la-midsize}
+  - {name: "Ritual", tier: B, group: added:la-midsize}
+  - {name: "Parachute Home", tier: B, group: added:la-midsize}
+  - {name: "Hims & Hers", tier: B, group: added:la-midsize}
+  - {name: "SpaceX", tier: B, group: added:la-midsize}
+  - {name: "Spotify", tier: B, group: added:la-midsize}
+  - {name: "Honey", tier: B, group: added:la-midsize}
+  - {name: "Wondery", tier: B, group: added:la-midsize}
+  - {name: "Boring Company", tier: B, group: added:la-midsize}
+  - {name: "Chime", tier: B, group: added:la-midsize}
+  - {name: "Faire", tier: B, group: added:la-midsize}

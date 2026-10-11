@@ -1,0 +1,46 @@
+# Firm pages with no free API (custom career sites, or Workday tenants that refuse the public endpoint).
+# Budget: ~400 Firecrawl credits/month for the scanner. Each run scrapes ONE half (A or B, alternating),
+# ~20 pages x 1 credit = ~20 credits/run, ~10 runs/month = ~200/month. maxAge 48h lets cached pages cost less.
+# If a URL 404s or redirects to a generic page, fix it here rather than retrying.
+half_a:
+  - {company: McKinsey, url: "https://www.mckinsey.com/careers/students"}
+  - {company: Bain, url: "https://www.bain.com/careers/students-and-graduates/"}
+  - {company: BCG, url: "https://careers.bcg.com/global/en/students"}
+  - {company: Deloitte, url: "https://www2.deloitte.com/us/en/pages/careers/articles/join-deloitte-students-programs.html"}
+  - {company: EY-Parthenon, url: "https://www.ey.com/en_us/careers/students"}
+  - {company: KPMG, url: "https://www.kpmguscareers.com/early-career/"}
+  - {company: Oliver Wyman, url: "https://www.oliverwyman.com/careers/entry-level.html"}
+  - {company: L.E.K. Consulting, url: "https://www.lek.com/careers/students-graduates"}
+  - {company: Roland Berger, url: "https://www.rolandberger.com/en/Join/"}
+  - {company: Cornerstone Research, url: "https://www.cornerstone.com/careers/undergraduates/"}
+  - {company: Analysis Group, url: "https://www.analysisgroup.com/careers/undergraduate-students/"}
+  - {company: ZS Associates, url: "https://www.zs.com/careers/students-and-graduates"}
+  - {company: Simon-Kucher, url: "https://www.simon-kucher.com/en/careers/students"}
+  - {company: Goldman Sachs, url: "https://www.goldmansachs.com/careers/students/programs-and-internships"}
+  - {company: JPMorgan, url: "https://careers.jpmorgan.com/us/en/students/programs"}
+  - {company: Evercore, url: "https://www.evercore.com/careers/students/"}
+  - {company: Jefferies, url: "https://www.jefferies.com/careers/campus-recruiting/"}
+  - {company: Moelis, url: "https://www.moelis.com/careers/"}
+  - {company: Capital One, url: "https://www.capitalonecareers.com/campus"}
+  - {company: Alvarez & Marsal, url: "https://www.alvarezandmarsal.com/careers/students-graduates"}
+half_b:
+  - {company: Google, url: "https://buildyourfuture.withgoogle.com/programs/step"}
+  - {company: Microsoft, url: "https://careers.microsoft.com/v2/global/en/exploremicrosoft"}
+  - {company: Meta, url: "https://www.metacareers.com/careerprograms/students"}
+  - {company: LinkedIn, url: "https://careers.linkedin.com/students"}
+  - {company: Uber, url: "https://www.uber.com/us/en/careers/teams/university/"}
+  - {company: Intuit, url: "https://www.intuit.com/careers/university-recruiting/"}
+  - {company: Netflix, url: "https://explore.jobs.netflix.net/careers?query=intern"}
+  - {company: Paramount, url: "https://careers.paramount.com/internships"}
+  - {company: NBCUniversal, url: "https://www.nbcunicareers.com/internships"}
+  - {company: Sony Pictures, url: "https://www.sonypicturesjobs.com/students"}
+  - {company: Live Nation, url: "https://www.livenationentertainment.com/careers/"}
+  - {company: Lionsgate, url: "https://www.lionsgate.com/careers"}
+  - {company: Activision Blizzard, url: "https://careers.activisionblizzard.com/students"}
+  - {company: TikTok, url: "https://lifeattiktok.com/students"}
+  - {company: Skechers, url: "https://careers.skechers.com/us/en"}
+  - {company: Beyond Meat, url: "https://www.beyondmeat.com/en-US/careers"}
+  - {company: Alo Yoga, url: "https://www.aloyoga.com/pages/careers"}
+  - {company: Fashion Nova, url: "https://www.fashionnova.com/pages/careers"}
+  - {company: The Honest Company, url: "https://www.honest.com/careers.html"}
+  - {company: Procter & Gamble, url: "https://www.pgcareers.com/students"}
