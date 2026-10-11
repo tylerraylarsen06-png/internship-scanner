@@ -134,9 +134,15 @@ async function banner(page, it, n, unfilled) {
     const d = document.createElement('div');
     d.style.cssText = 'position:fixed;top:0;left:0;right:0;z-index:2147483647;background:#7a0000;color:#fff;' +
       'font:13px/1.4 -apple-system,sans-serif;padding:8px 14px;box-shadow:0 2px 6px rgba(0,0,0,.3)';
-    d.innerHTML = `<b>NOT SUBMITTED.</b> ${company}: ${role}. Filled ${n} field(s). ` +
-      (miss.length ? `Still needs you: ${miss.slice(0, 6).map((m) => m.replace(/</g, '')).join(' · ')}. ` : '') +
-      `Review every page, then press Submit yourself. <span style="opacity:.8">Grad ${answers.graduation} · GPA ${answers.gpa} · authorized: ${answers.work_authorized} · sponsorship: ${answers.sponsorship}</span>`;
+    // Built with textContent: company, role and field labels come from scraped pages.
+    const b = document.createElement('b');
+    b.textContent = 'NOT SUBMITTED.';
+    const note = document.createElement('span');
+    note.style.opacity = '.8';
+    note.textContent = `Grad ${answers.graduation} · GPA ${answers.gpa} · authorized: ${answers.work_authorized} · sponsorship: ${answers.sponsorship}`;
+    d.append(b, document.createTextNode(` ${company}: ${role}. Filled ${n} field(s). ` +
+      (miss.length ? `Still needs you: ${miss.slice(0, 6).join(' · ')}. ` : '') +
+      'Review every page, then press Submit yourself. '), note);
     document.body.appendChild(d);
   }, { n, miss, company: it.company, role: it.role, answers }).catch(() => {});
 }
